@@ -91,10 +91,10 @@ const Navbar = () => {
     <nav
       className={`fixed w-full top-0 z-50 transition-all duration-500 ${
         isOpen
-          ? "bg-[#030014] opacity-100"
+          ? " opacity-100"
           : scrolled
-          ? "bg-[#030014]/50 backdrop-blur-xl"
-          : "bg-transparent"
+          ? " backdrop-blur-xl "
+          : "bg-transparent "
       }`}
     >
       <div className="mx-auto px-4 sm:px-6 lg:px-[10%]">
@@ -123,8 +123,8 @@ const Navbar = () => {
                   <span
                     className={`relative z-10 transition-colors duration-300 ${
                       activeSection === item.href.substring(1)
-                        ? "bg-gradient-to-r from-sky-400 to-fuchsia-500 bg-clip-text text-transparent font-semibold"
-                        : "text-gray-600"
+                        ? "bg-gradient-to-r from-sky-400 to-fuchsia-500 bg-clip-text text-transparent font-semibold "
+                        : "text-gray-400"
                     }`}
                   >
                     {item.label}
@@ -144,7 +144,7 @@ const Navbar = () => {
                   href={item.url}
                   aria-label={item.name}
                   target="_blank"
-                  className="text-xl font-medium text-gray-600"
+                  className="text-xl font-medium text-gray-400"
                 >
                   {item.icon}
                 </a>
