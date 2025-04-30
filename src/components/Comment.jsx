@@ -137,7 +137,7 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
       </div>
 
       {/* ///input image */}
-      <div className="space-y-2" data-aos="fade-up" data-aos-duration="1400">
+      {/* <div className="space-y-2" data-aos="fade-up" data-aos-duration="1400">
         <label className="block text-sm font-medium text-black">
           Profile Photo <span className="text-gray-400">(optional)</span>
         </label>
@@ -187,7 +187,7 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
             </div>
           )}
         </div>
-      </div>
+      </div> */}
       {/* ///submit button */}
       <button
         type="submit"

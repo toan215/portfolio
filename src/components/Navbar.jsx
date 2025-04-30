@@ -138,7 +138,7 @@ const Navbar = () => {
                   ></span>
                 </a>
               ))}
-              {socialLink.map((item) => (
+              {/* {socialLink.map((item) => (
                 <a
                   key={item.name}
                   href={item.url}
@@ -148,7 +148,7 @@ const Navbar = () => {
                 >
                   {item.icon}
                 </a>
-              ))}
+              ))} */}
             </div>
           </div>
         </div>
