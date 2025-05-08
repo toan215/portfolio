@@ -20,7 +20,6 @@ const Certificate = ({ Img }) => {
           position: "relative",
           overflow: "hidden",
           borderRadius: 2,
-          boxShadow: "0 8px 16px rgba(0, 0, 0, 0.1)",
           "&:hover": {
             transform: "translateY(-5px)",
             boxShadow: "0 12px 24px rgba(0, 0, 0, 0.2)",

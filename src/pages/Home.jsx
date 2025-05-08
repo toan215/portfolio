@@ -93,12 +93,12 @@ const SocialLink = memo(({ icon: Icon, link }) => (
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
-const WORDS = ["Network & Software Student", "Tech Enthusiast"];
+const WORDS = ["Network & Software Student", "Enjoy Tech"];
 const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com" },
-  { icon: Linkedin, link: "https://www.linkedin.com" },
-  { icon: Facebook, link: "https://www.instagram.com" },
+  { icon: Github, link: "https://github.com/toan215" },
+  { icon: Linkedin, link: "https://www.linkedin.com/in/truong-cong-toan-2ba793364/" },
+  { icon: Facebook, link: "https://www.facebook.com/toan.congtoan.14" },
 ];
 
 const Home = () => {

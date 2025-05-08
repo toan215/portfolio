@@ -93,10 +93,8 @@ const StatCard = memo(
 
 const About = () => {
   const { totalProjects, totalCertificates, YearExperience } = useMemo(() => {
-    const storedProjects =
-      JSON.parse(localStorage.getItem("totalProjects")) || "[]";
-    const storedCertificates =
-      JSON.parse(localStorage.getItem("totalCertificates")) || "[]";
+    const storedProjects = JSON.parse(localStorage.getItem("projects") || "[]");
+    const storedCertificates = JSON.parse(localStorage.getItem("certificates") || "[]");
     const startDate = new Date("2024-01-01");
     const currentDate = new Date();
 
@@ -173,7 +171,7 @@ const About = () => {
       id="About"
     >
       <Header />
-      
+
       <div className="w-full mx-auto pt-8 sm:pt-12 relative">
         <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           <div className="space-y-6 text-center lg:text-left">

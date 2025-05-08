@@ -23,7 +23,7 @@ const SakuraEffect = ({ windSpeed }) => {
         speedY: Math.random() * 1 + 1,
         rotation: Math.random() * 360,
         rotationSpeed: Math.random() * 2 - 1,
-        opacity: Math.random() * 0.5 + 0.5,
+        opacity: Math.random() * 0.5 + 0,
       });
     }
 

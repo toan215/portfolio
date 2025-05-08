@@ -3,3 +3,30 @@
 @theme {
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffff;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(194, 110, 253);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(220, 63, 252);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  box-shadow: inset 0 0 30px rgba(168, 85, 247, 0.3),
+    0 0 15px rgba(99, 102, 241, 0.3);
+}

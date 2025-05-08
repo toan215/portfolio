@@ -16,7 +16,7 @@ const TypeWriterEffect = ({ text }) => {
       } else {
         clearInterval(timer);
       }
-    }, 260);
+    }, 160);
     return () => clearInterval(timer);
   }, [text]);
   return (
